@@ -13,8 +13,8 @@ This installation guide is based on Visual Studio 2022.
   
 1. Open Properties on project (Alt+Enter).  
 2. Set
-    > configuration(C) : All configuration  
-    > Platform(P) : Win32  
+  > configuration(C) : All configuration  
+  > Platform(P) : Win32  
 
 __Include OpenGL Library__  
 3. Go to Properties > C/C++ > General > Additional include directories, type ```./include``` manually.  
