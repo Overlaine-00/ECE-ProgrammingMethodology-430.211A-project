@@ -8,9 +8,15 @@ You may run program via ```downloading Debug/Project.exe``` only.
 - FreeImage : included in source file
 
 
-## Specification
-### 1. In-game
-#### 1-1. Objects
-
 ## Installation
-...
+This installation guide is based on Visual Studio 2022.  
+  
+1. Open Properties on project (Alt+Enter).  
+2. Set
+> configuration(C) : All configuration
+> Platform(P) : Win32
+__Include OpenGL Library__
+3. Go to Properties > C/C++ > General > Additional include directories, type ```./include``` manually.
+4. Properties > Linker > General > Additional library directories, type ```./lib``` manually.
+5. Properties > Linker > Input > Additional dependencies, add ```glut32.lib```.
+__Include Freeimage Library__
