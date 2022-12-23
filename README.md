@@ -1,5 +1,5 @@
 # Final Project : Puzz Loop
-You may run program via ```downloading Debug/Project.exe``` only.
+You may run program by ```Debug/Project.exe```.
 
 
 ## Versions and Packages
