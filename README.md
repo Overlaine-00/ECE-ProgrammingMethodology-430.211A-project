@@ -9,8 +9,8 @@ You may run program via ```downloading Debug/Project.exe``` only.
 
 
 ## Specification
-1. In-game
-1-1. Objects
+### In-game
+#### Objects
 
 ## Installation
 ...
