@@ -4,8 +4,8 @@ You may run program via downloading ```Debug/Project.exe``` only.
 
 ## Versions and Packages
 - C++ 14 (or later)
-- OpenGL : included in source file
-- FreeImage : included in source file
+- OpenGL (included in source file)
+- FreeImage (included in source file)
 
 
 ## Installation
@@ -21,7 +21,7 @@ __Include OpenGL Library__
 3. Go to ```Properties``` > ```C/C++``` > ```General``` > ```Additional include directories```, type "./include" manually.  
 4. Go to ```Properties``` > ```Linker``` > ```General``` > ```Additional library directories```, type "./lib" manually.  
 5. Go to ```Properties``` > ```Linker``` > ```Input``` > ```Additional dependencies```, add "glut32.lib".  
-6. 
+
 __Include Freeimage Library__  
 
 6. ...
