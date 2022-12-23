@@ -17,6 +17,7 @@ This installation guide is based on Visual Studio 2022.
     > Platform(P) : Win32  
 
 __Include OpenGL Library__  
+
 3. Go to ```Properties``` > ```C/C++``` > ```General``` > ```Additional include directories```, type "./include" manually.  
 4. Go to ```Properties``` > ```Linker``` > ```General``` > ```Additional library directories```, type "./lib" manually.  
 5. Go to ```Properties``` > ```Linker``` > ```Input``` > ```Additional dependencies```, add "glut32.lib".  
